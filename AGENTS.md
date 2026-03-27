@@ -60,4 +60,8 @@ src/css/style.css    ← all styles
 
 ## My personal instructions
 
-_(Add your own here — what helps you learn, what you want the agent to always or never do, context about your project.)_
+- Always ask me what the data shape looks like before writing any filter or render function.
+- Never use innerHTML to insert data from the dataset — always use createElement and textContent.
+- When I ask you to refactor something, show me a diff or explain what changed line by line.
+- Show me one function at a time. Do not write the whole file at once.
+- My project is a mood-based advice matcher. The dataset lives in data.js and has id, mood, text, and category fields.

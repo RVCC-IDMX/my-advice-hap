@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,15 +8,31 @@
   </head>
   <body>
     <header>
-      <h1>My advice</h1>
+      <h1>My Advice</h1>
+      <p class="subtitle">Get advice based on how you are feeling right now.</p>
     </header>
 
     <main>
-      <p id="message"></p>
+      <section class="form-section">
+        <form id="advice-form">
+          <label for="mood-select">How are you feeling?</label>
+          <select id="mood-select" name="mood">
+            <option value="stressed">Stressed</option>
+            <option value="unmotivated">Unmotivated</option>
+            <option value="overwhelmed">Overwhelmed</option>
+            <option value="confident">Confident</option>
+          </select>
+          <button type="submit">Get advice</button>
+        </form>
+      </section>
+
+      <section class="results-section" aria-live="polite">
+        <div id="advice-output"></div>
+      </section>
     </main>
 
     <footer>
-      <p>&copy; 2026</p>
+      <p>&copy; 2026 My Advice</p>
     </footer>
 
     <script type="module" src="/src/js/app.js"></script>
