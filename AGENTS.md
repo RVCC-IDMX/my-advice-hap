@@ -60,4 +60,7 @@ src/css/style.css    ← all styles
 
 ## My personal instructions
 
-_(Add your own here — what helps you learn, what you want the agent to always or never do, context about your project.)_
+- My project is a mood-based advice app. Data is in `src/js/data.js` with fields: id, mood, text, category.
+- Always explain what a function does before writing it.
+- If I have a lint error, explain what caused it before fixing it.
+- Never write more than one function at a time without checking in with me first.
