@@ -64,3 +64,4 @@ src/css/style.css    ← all styles
 - Always explain what a function does before writing it.
 - If I have a lint error, explain what caused it before fixing it.
 - Never write more than one function at a time without checking in with me first.
+- This is an npm only repo. **NEVER use bun, yarn etc.**
